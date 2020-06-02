@@ -1,0 +1,42 @@
+#page-create-point {
+    width: 90%;
+    max-width: 1100px;
+
+    /* !Alinhamento de caixa pelo lado de fora
+    !(0 pra cima e pra baixo e as laterais com
+    !preenchimento automático) */
+    margin: 0 auto;
+}
+
+#page-create-point header {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-create-point a {
+    color: var(--title-color);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+
+}
+
+#page-create-point a span {
+    background-image: url('/assets/arrow-left.svg');
+    width: 20px;
+    height: 24px;
+    display: flex;
+    margin-right: 10px;
+}
+
+form {
+    background-color: white;
+    padding: 64px; /* ! Preechimento do formulário */
+    margin-top: 80px;   /*! Espaço de cima da caixa - entre o simbolo e Ecoleta e a caixa*/
+    border-radius: 8px;
+    max-width: 730px;
+    margin: 80px auto;
+
+}
