@@ -54,10 +54,15 @@
                         <select name="uf">
                             <option value="">Selecione o estado</option>
                         </select>
+
+                    <!-- Criando um input escondido para alterar o código relacionado
+                        ao estado advindo da API do IBGE para o seu nome -->
+                        
+                        <input type="hidden" name="state">
                         
                     </div>
 
-                    <div class="field-group">
+                    <div class="field">
                         <div class="field">
                             <label for="city">Cidade</label>
                             <select name="city" disabled>
@@ -74,6 +79,6 @@
 
 
     </div>
-       
+<script src="/scripts/create-point.js"></script>
 </body>
 </html> 
