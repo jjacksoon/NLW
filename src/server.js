@@ -34,5 +34,10 @@ server.get("/create-point", (req, res) => {
 // ?feito de uma outra forma para que possam ser extraídos dados
 // ?do banco de dados que está recebendo os cadastros dos ecopontos
 
+server.get("/search", (req, res) => {
+    return res.render("search-results.html")
+})
+
+
 // !Ligar o servidor
 server.listen(3000)
