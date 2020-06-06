@@ -15,38 +15,41 @@
     {% include "partials/page-header.html" %}
 
     <main>
-        <h4>
-            <strong>2 pontos</strong>
-            encontrados
-        </h4>
-        <div class="cards">
-            <div class="card">
-                <img src="https://23pxcp3u31lgiybw92v8rma1-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Recyclers-600x400.jpg" alt="Colectoria">
-                <h1>Colectoria</h1>
-                <h3>Resíduos eletrônicos,<br/>
-                    Lâmpadas
-                </h3>
-                <p>Rio do Sul, Santa Catarina
-                    <br/>
-                    Guilherme Gemballa, Jardim América
-                    <br/>
-                    Nº260
+        {# Caso não tenha pontos cadastrados no meu Banco de dados #}
+        {% if total > 0 %}
 
-                </p>
+            <h4>
+                <strong>{{total}} pontos</strong>
+                encontrados
+            </h4>
+            <div class="cards">
+
+                {% for place in places %}
+
+                    <div class="card">
+                        <img src="{{place.image}}" alt="{{place.name}}">
+                        <h1>{{place.name}}</h1>
+                        <h3>{{place.items}}</h3>
+                        <p>
+                            {{place.city}},
+                            {{place.state}}
+                            <br/>
+                            {{place.address}}
+                            <br/>
+                            {{place.address2}}
+                        </p>
+                    </div>
+
+                {% endfor %}
+
             </div>
 
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1589860518314-34bcd4d6bdff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Colectoria">
-                <h1>Papersider</h1>
-                <h3>Papéis e Papelão</h3>
-                <p>Rio do Sul, Santa Catarina
-                    <br/>
-                    Guilherme Gemballa, Jardim América
-                    <br/>
-                    Nº260
+        {% else %}
+            <h4>
+                <strong>Nenhum</strong>
+                local encontrado</h4>
 
-                </p>
-            </div>
-        </div>
+        {% endif %}
+
     </main>
 {% endblock content %}
