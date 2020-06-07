@@ -15,7 +15,7 @@
   </a>
 
   <a href="https://twitter.com/jjacksoon1">
-    <img alt="" src="   https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fjjacksoon1">
+    <img alt="" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fjjacksoon1">
   </a>
 	
   
