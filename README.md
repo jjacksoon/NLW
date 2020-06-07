@@ -13,6 +13,10 @@
   <a href="https://www.linkedin.com/in/jackson10/">
     <img alt="" src="https://img.shields.io/badge/Linkedin-Jackson-blue">
   </a>
+
+  <a href="https://twitter.com/jjacksoon1">
+    <img alt="" src="   https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fjjacksoon1">
+  </a>
 	
   
   <a href="https://github.com/leon-carvalho/Ecoleta/commits/master">
@@ -21,6 +25,7 @@
 
   <img alt="License" src="https://img.shields.io/github/license/jjacksoon/NLW?style=plastic">
    <a href="https://github.com/jjacksoon/NLW/blob/master/LICENSE"></a>
+
 </p>
 
 
@@ -66,6 +71,8 @@ O projeto foi desenvolvido durante a **NLW - Next Level Week** oferecida pela [R
 Este projeto esta sobe a licença GPL. Veja a [LICENÇA](license) para saber mais.
 
 Para maiores informações, entre em contato comigo pelo 🧑💼 [Linkedin](https://www.linkedin.com/in/jackson10/) ou [Twitter](https://twitter.com/jjacksoon1)
+
+Ah! sigam meu perfil aqui no Github! 🐱
 
 [license]: https://github.com/jjacksoon/NLW/blob/master/LICENSE
 [rs]: https://rocketseat.com.br
