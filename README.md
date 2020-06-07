@@ -18,11 +18,6 @@
     <img alt="" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fjjacksoon1">
   </a>
 	
-  
-  <a href="https://github.com/leon-carvalho/Ecoleta/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/leon-carvalho/Ecoleta">
-  </a>
-
   <img alt="License" src="https://img.shields.io/github/license/jjacksoon/NLW?style=plastic">
    <a href="https://github.com/jjacksoon/NLW/blob/master/LICENSE"></a>
 
@@ -45,7 +40,7 @@ As empresas ou entidades poderão se cadastrar na plataforma web enviando:
   - resíduos orgânicos
   - óleo de cozinha
 
-O projeto foi desenvolvido durante a **NLW - Next Level Week** oferecida pela [Rocketseat](rs). A **NLW** é uma experiência prática, online e gratuita com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana para que os alunos possam desenvolver o seu projeto final com a ajuda dos instrutores.
+O projeto foi desenvolvido durante a **NLW - Next Level Week** oferecida pela [Rocketseat](https://rocketseat.com.br). A **NLW** é uma experiência prática, online e gratuita com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana para que os alunos possam desenvolver o seu projeto final com a ajuda dos instrutores.
 
 
 ## 🛠 Layout
@@ -53,26 +48,24 @@ O projeto foi desenvolvido durante a **NLW - Next Level Week** oferecida pela [R
 ### 💻 Home Page and Form page
 
 <p align="center">
-  <img alt="NextLevelWeek" title="Home Page" src="./show/homepage.png" width="200px">
+  <img alt="NextLevelWeek" title="Home Page" src="./show/homepage.png" width="400px">
 
-  <img alt="NextLevelWeek" title="Form Page" src="./show/formpage.png" width="200px">
+  <img alt="NextLevelWeek" title="Form Page" src="./show/formpage.png" width="400px">
 </p>
 
 ### 📝 Search points and Results
 
 <p align="center">
-  <img alt="NextLevelWeek" title="Search points" src="./show/search.png" width="200px">
+  <img alt="NextLevelWeek" title="Search points" src="./show/search.png" width="400px">
 
-  <img alt="NextLevelWeek" title="Form Page" src="./show/pontos.png" width="200px">
+  <img alt="NextLevelWeek" title="Form Page" src="./show/pontos.png" width="400px">
 </p>
 
 ## 📝 Licença
 
-Este projeto esta sobe a licença GPL. Veja a [LICENÇA](license) para saber mais.
+Este projeto esta sobe a licença GPL. Veja a [LICENÇA](https://github.com/jjacksoon/NLW/blob/master/LICENSE) para saber mais.
 
 Para maiores informações, entre em contato comigo pelo 🧑💼 [Linkedin](https://www.linkedin.com/in/jackson10/) ou [Twitter](https://twitter.com/jjacksoon1)
 
-Ah! sigam meu perfil aqui no Github! 🐱
 
-[license]: https://github.com/jjacksoon/NLW/blob/master/LICENSE
-[rs]: https://rocketseat.com.br
+Ah! sigam meu perfil aqui no Github! 🐱
